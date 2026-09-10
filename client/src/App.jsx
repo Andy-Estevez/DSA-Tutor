@@ -1,7 +1,9 @@
+import ChatContainer from "./components/ChatContainer";
+
 export default function App() {
   return (
-    <main>
-      <h1>DSA Tutor</h1>
+    <main className="h-screen w-screen">
+      <ChatContainer className="h-full w-full" />
     </main>
   );
 }
